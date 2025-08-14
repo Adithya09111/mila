@@ -33,3 +33,13 @@ This is a Node.js backend project using Express. It includes dotenv for environm
 
 ## Example Route
 Visit `http://localhost:3000/api/hello` to test the sample route.
+
+## SSH Key Generation
+To generate a new SSH key, use the following command:
+```sh
+ssh-keygen -t ed25519 -C "adithyavenna2@gmail.com"
+```
+Then, add the SSH key to your GitHub account. You can copy the SSH key to your clipboard with:
+```sh
+pbcopy < ~/.ssh/id_ed25519.pub
+```

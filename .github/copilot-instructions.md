@@ -104,3 +104,5 @@ Before starting a new task in the above plan, update progress in the plan.
 - Work through each checklist item systematically.
 - Keep communication concise and focused.
 - Follow development best practices.
+
+ssh-keygen -t ed25519 -C "adithyavenna2@gmail.com"
